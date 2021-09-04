@@ -1,0 +1,1 @@
+@include('partials.components.table.columns.location.ticket')

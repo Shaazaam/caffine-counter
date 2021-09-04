@@ -1,0 +1,11 @@
+{
+    "/dist/js/init.js": "/dist/js/init.js",
+    "/dist/js/mixins.js": "/dist/js/mixins.js",
+    "/src/css/style.css": "/src/css/style.css",
+    "/src/js/moment.min.js": "/src/js/moment.min.js",
+    "/src/js/vue.js": "/src/js/vue.js",
+    "/dist/css/all.css": "/dist/css/all.css",
+    "/dist/js/all.js": "/dist/js/all.js",
+    "/dist/js/constants.js": "/dist/js/constants.js",
+    "/dist/js/serializers.js": "/dist/js/serializers.js"
+}

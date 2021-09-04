@@ -1,0 +1,41 @@
+table
+{
+    &.table
+    {
+        font-size: inherit;
+    }
+}
+
+table th a
+{
+    cursor: pointer;
+}
+
+table.table > tbody > tr > td
+{
+    vertical-align: middle;
+}
+
+.table-head
+{
+    width: 100%;
+    padding: 5px;
+    background-color: #eee;
+    font-size: 12px;
+}
+
+table > tbody > tr > td > hr
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.no-wrap
+{
+    display: flex;
+    flex-wrap: nowrap;
+    .small
+    {
+        margin-left: 5px;
+    }
+}

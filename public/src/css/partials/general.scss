@@ -1,0 +1,156 @@
+.bold
+{
+    font-weight: bold;
+}
+
+a:focus,
+a:hover
+{
+    outline: none;
+}
+
+@mixin m-sizing($dir)
+{
+    &-
+    {
+        &4{margin-#{$dir}: 16px;}
+        &3{margin-#{$dir}: 12px;}
+        &2{margin-#{$dir}: 8px;}
+        &1{margin-#{$dir}: 4px;}
+        &0{margin-#{$dir}: 0;}
+    }
+}
+
+.m-
+{
+    &top
+    {
+        margin-top: 20px;
+        @include m-sizing(top);
+    }
+    &bottom
+    {
+        margin-bottom: 20px;
+        @include m-sizing(bottom);
+    }
+    &left
+    {
+        margin-left: 20px;
+        @include m-sizing(left);
+    }
+    &right
+    {
+        margin-right: 20px;
+        @include m-sizing(right);
+    }
+    &0
+    {
+        margin: 0;
+    }
+}
+
+@mixin p-sizing($dir)
+{
+    &-
+    {
+        &4{padding-#{$dir}: 16px;}
+        &3{padding-#{$dir}: 12px;}
+        &2{padding-#{$dir}: 8px;}
+        &1{padding-#{$dir}: 4px;}
+        &0{padding-#{$dir}: 0;}
+    }
+}
+
+.p-
+{
+    &top
+    {
+        padding-top: 20px;
+        @include p-sizing(top);
+    }
+    &bottom
+    {
+        padding-bottom: 20px;
+        @include p-sizing(bottom);
+    }
+    &left
+    {
+        padding-left: 20px;
+        @include p-sizing(left);
+    }
+    &right
+    {
+        padding-right: 20px;
+        @include p-sizing(right);
+    }
+    &0
+    { 
+        padding: 0;
+    }
+}
+
+.b-left
+{
+    border-left: 2px solid #eee;
+}
+
+.b-right
+{
+    border-right: 2px solid #eee;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}
+
+.overflow-control *
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overflow-control *:hover
+{
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.read-only
+{
+    margin-top:5px;
+}
+
+[v-cloak]
+{
+    display: none;
+}
+
+.word-wrap
+{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.word-break
+{
+    word-break: break-word;
+}
+
+.pre-wrap
+{
+    white-space: pre-wrap;
+}
+
+.no-focus:focus
+{
+    outline: none;
+}
+
+.overflow-auto
+{
+    max-height: 500px;
+    overflow: auto;
+}

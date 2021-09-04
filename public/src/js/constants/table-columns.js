@@ -1,0 +1,7 @@
+const Columns = {
+    counter: {
+        shown: {
+            
+        },
+    },
+};
